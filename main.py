@@ -14,9 +14,9 @@ def generate_qr_code(url):
     img = qr.make_image(fill='black', back_color='white')
 
     # Save the image to a file
-    name = input("Enter the name for your QR Code PNG (file extention .png will be added for you): ")
-    img.save(name +'.png')
-    return name +'.png'
+    name = input("Enter the name for your QR Code PNG (file extension .png will be added for you): ")
+    img.save(name + '.png')
+    return name + '.png'
 
 
 def main():
